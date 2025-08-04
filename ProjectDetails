@@ -1,0 +1,81 @@
+--- PROJE YAPILANDIRMASI ---
+Proje klasörü oluştur: textile-factory-app
+
+Alt klasörleri oluştur:
+
+backend → Node.js
+
+frontend → React + Tailwind
+
+jenkins
+
+docker
+
+--- BACKEND GELİŞTİRME (Node.js + Express + MongoDB) ---
+Express sunucu kurulumu, temel yapının oturtulması
+
+MongoDB bağlantısı kurulumu (Mongoose ile)
+
+JWT tabanlı authentication sistemi
+
+Kullanıcı rolleri ve yetkilendirme
+
+API endpointleri (CRUD):
+
+/users, /auth, /orders, /products, /inventory, /quality
+
+Swagger ile API dokümantasyonu
+
+--- FRONTEND GELİŞTİRME (React + Tailwind) ---
+Projeyi create-react-app ile başlat
+
+Tailwind kurulumu ve tema yapısı
+
+Sayfa yapıları:
+
+Login / Register
+
+Dashboard (Rol bazlı gösterim)
+
+Sipariş ekranı
+
+Üretim planlama
+
+Depo ve stok görüntüleme
+
+Kalite kontrol modülü
+
+Axios ile backend’e istekler
+
+--- ORTAK BİLEŞENLER ---
+Auth context (token yönetimi)
+
+Protected routes (Örn: Admin route’ları)
+
+--- JENKINS KURULUMU (CI/CD) ---
+Jenkins kurulumu (local ya da Docker ile)
+
+Pipeline yazımı: backend ve frontend için otomatik build ve test
+
+Github Webhook entegrasyonu
+
+--- DOCKER KULLANIMI ---
+Backend ve frontend için ayrı Dockerfile’lar
+
+Docker Compose ile servislerin orkestrasyonu (MongoDB dahil)
+
+.env dosyaları ve yapılandırmalar
+
+--- TEST VE RAPORLAMA ---
+Backend için Jest veya Mocha testleri
+
+Frontend için React Testing Library
+
+Otomatik test raporu oluşturma
+
+--- CANLIYA GEÇİŞ ---
+Canlı sunucu kurulumu (Ubuntu)
+
+Nginx ile reverse proxy
+
+SSL kurulumu (Let's Encrypt)
